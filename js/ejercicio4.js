@@ -1,3 +1,7 @@
+/**
+ * Clase del juego tres en línea
+ * @class TresEnLinea
+ */
 class TresEnLinea{
     casillas = [[" - "," - "," - "],
                 [" - "," - "," - "],
@@ -41,7 +45,6 @@ class TresEnLinea{
 
     /**
      * Función que cambia el turno
-     *
      * @memberof TresEnLinea
      */
     cambiarTurno = () => {
@@ -50,7 +53,6 @@ class TresEnLinea{
 
     /**
      * Función que pone una ficha en el tablero si la casilla está vacía
-     *
      * @param {*} x Coordenada x
      * @param {*} y Coordenada y
      * @memberof TresEnLinea
@@ -70,7 +72,6 @@ class TresEnLinea{
     
     /**
      * Función que calcula si alguien ha ganado
-     *  
      * @return {*} Boolean 
      * @memberof TresEnLinea
      */

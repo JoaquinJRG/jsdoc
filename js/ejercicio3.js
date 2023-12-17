@@ -1,3 +1,7 @@
+/**
+ * 
+ * @class Puzzle
+ */
 class Puzzle{
     
     tablero = []; 
@@ -19,7 +23,6 @@ class Puzzle{
 
     /**
      * Función que crea el tablero con números aleatorios sin que se repitan
-     * 
      * @memberof Puzzle
      */
     crearTablero(){
@@ -55,7 +58,6 @@ class Puzzle{
 
     /**
      * Función que genera un numero aleatrorio entre min y max. 
-     * 
      * @param {*} min
      * @param {*} max
      * @return {*} 
@@ -68,7 +70,6 @@ class Puzzle{
     
     /**
      * Función que muestra el tablero
-     *
      * @return {*} string con el tablero
      * @memberof Puzzle
      */
@@ -91,7 +92,6 @@ class Puzzle{
 
     /**
      * Función que resetea el tablero
-     *
      * @memberof Puzzle
      */
     resetearTablero(){
@@ -102,7 +102,6 @@ class Puzzle{
 
     /**
      * Función que mueve el número al espacio
-     * 
      * @param {*} numero Número que se quiere mover 
      * @memberof Puzzle
      */
@@ -143,7 +142,6 @@ class Puzzle{
 
     /**
      * Función que comprueba si se ha resuelto el puzle 
-     *
      * @return {*} Boolean
      * @memberof Puzzle
      */
@@ -172,7 +170,6 @@ class Puzzle{
 
     /**
      * Función que devuelve los números que se pueden mover 
-     *
      * @return {*} Array de números que se pueden mover 
      * @memberof Puzzle
      */
